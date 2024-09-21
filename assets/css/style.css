@@ -1,0 +1,211 @@
+
+body {
+    overflow: scroll; 
+}
+  
+body::-webkit-scrollbar {
+    display: none;
+}
+  
+/* トップ画面 */
+.top-container {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../img/topimage.png) ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+
+
+.top-container h1 {
+    font-size: 5vw;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    color: white;
+}
+
+/* お問い合わせ */
+.contact-container {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 80px 0;
+}
+
+.contact-top {
+    margin-bottom: 2.5rem;
+}
+
+.contact-top p {   
+    font-size: 2rem;
+    line-height: 1.5;
+}
+
+.contact-bottom {
+    display: flex;
+}
+
+.contact-bottom p {
+    margin-top: 1.4rem;
+    font-size: 2.1rem;
+    margin-right: 5rem;
+}
+
+.green-btn a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    height: 1.5rem;
+    padding: 1.5rem 7rem;
+    background-color: #089416;
+}
+
+.green-btn a span {
+    /* background-image: url(../img/arrow02.png) right 20px top 5px no-repeat; */
+    display: block;
+    color: white;
+    font-size: 1.5rem;
+}
+
+
+
+/* サービス */
+.service-container {
+    width: 100vw;
+    height: 70vh;
+    background-image: url(../img/topimage.png) ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.middle-wrap {
+    display: inline-block;
+    width: 100vw;
+    height: 70vh;
+    background-color: rgba(8, 148, 22, 0.5);
+    position: relative;
+}
+
+.middle-wrap h1 {
+    color: white;
+    font-size: 18vw;
+}
+
+.middle-wrap p {   
+    width: 50vw;
+    color: white;
+    font-size: 1.1rem;
+    line-height: 1.5;
+    margin-left: 3rem;
+}
+
+.white-btn a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    height: 1.5rem;
+    width: 10rem;
+    padding: 1.5rem 7rem;
+    background-color: white;
+    position: absolute;
+    bottom: 2rem;
+    right: 2rem;
+}
+
+.white-btn a span {
+    /* background-image: url(../img/arrow02.png) right 20px top 5px no-repeat; */
+    display: block;
+    color: #089416;
+    font-size: 1.5rem;
+}
+
+/* 施工事例 */
+.works-container {
+    width: 100vw;
+    height: 70vh;
+    background-image: url(../img/topimage.png) ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+}
+
+.works-top-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    height: 35vh;
+}
+
+.works-top h1 {
+    color: #089416;
+    font-size: 18vw;
+}
+
+.works-middle {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.works-middle p {
+    width: 45vw;
+    color: #089416;
+    font-size: 1.1rem;
+    line-height: 1.5;
+    margin-left: 10rem;
+}
+
+.works-middle .green-btn {
+    width: 20vw;
+
+}
+
+.works-middle .green-btn a {
+    width: 10rem;
+}
+
+.works-bottom {
+    width: 100vw;
+    height: 35vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.picture-container {
+    width: 28vw;
+    height: 25vh;
+    background-color: white;
+}
+
+/* 会社情報 */
+.corporate-container {
+    width: 100vw;
+    height: 70vh;
+    background-image: url(../img/topimage.png) ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.corporate-container h1 {
+    font-size: 16vw;
+    margin-bottom: 1rem;
+}
+
+/* 採用情報 */
+.recruit-container {
+    width: 100vw;
+    height: 100vh;
+}
